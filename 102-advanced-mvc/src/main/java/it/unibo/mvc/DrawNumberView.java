@@ -24,4 +24,11 @@ public interface DrawNumberView {
      * @param res the result of the last draw
      */
     void result(DrawResult res);
+
+    /**
+     * This method display a message Dialog when an error occure in the model.
+     * @param message
+     *              the message will be displayed.
+     */
+    void displayError(String message);
 }
